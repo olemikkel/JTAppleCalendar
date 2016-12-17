@@ -400,6 +400,8 @@ extension JTAppleCalendarView {
                 self.scrollToSegment(destination, triggerScrollToDateDelegate: triggerScrollToDateDelegate, animateScroll: animateScroll, completionHandler: completionHandler)
             }
         }
+        self.triggerScrollToDateDelegate = triggerScrollToDateDelegate
+        
         var xOffset: CGFloat = 0
         var yOffset: CGFloat = 0
         
